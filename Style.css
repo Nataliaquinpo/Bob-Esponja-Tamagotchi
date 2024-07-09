@@ -1,0 +1,81 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #43ddf5;
+    color: #fff;
+    font-family: Arial, sans-serif;
+}
+
+#Bob_Esponja_Tamagochi {
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#Tamagochi img {
+    width: 200px;
+    height: auto;
+}
+
+#status {
+    margin-top: 20px;
+}
+
+.status-row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+#actions {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background-color: #2db1ea;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #335cff;
+}
+
+.circle-container {
+    position: relative;
+    width: 100px;
+    height: 100px;
+    margin: 20px auto;
+}
+
+circle {
+    fill: none;
+    stroke-width: 8;
+}
+
+circle:nth-child(1) {
+    stroke: #ddd;
+}
+
+#healthCircle {
+    stroke: #335cff;
+    stroke-dasharray: 282.6;
+    stroke-dashoffset: 0;
+    transition: stroke-dashoffset 0.5s;
+    transform: rotate(-90deg);
+    transform-origin: 50% 50%;
+}
+
+
+
+
+
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamagotchi</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="Bob_Esponja_Tamagochi">
+        <h1>Bob Esponja Tamagotchi</h1>
+        <div id="Tamagochi">
+            <img id="Bob_Esponja" src="Imagenes Tamagochi/Bob Esponja.png" alt="Bob Esponja">
+            <p>Health: <span id="health">100</span></p>
+            <div class="circle-container">
+                <svg width="100" height="100">
+                    <circle cx="50" cy="50" r="45"></circle>
+                    <circle id="healthCircle" cx="50" cy="50" r="45"></circle>
+                </svg>
+            </div>
+            <div id="status">
+                <p>Name: <span id="name">Bob Esponja Virtual</span></p>
+                <div class="status-row">
+                    <p>Hunger: <span id="Hunger">0</span></p>
+                    <p>Happiness: <span id="Happiness">10</span></p>
+                </div>
+                <div class="status-row">
+                    <p>Energy: <span id="Energy">100</span></p>
+                    <p>Dirty: <span id="Dirty">10</span></p>
+                </div>
+                <div class="status-row">
+                    <p>Sleep: <span id="Sleep">10</span></p>
+                    <p>Sad: <span id="Sad">10</span></p>
+                </div>
+            </div>
+            <div id="actions">
+                <button id="Feed">Comer</button>
+                <button id="Play">Jugar</button>
+                <button id="Sleep">Dormir</button>
+                <button id="Study">Estudiar</button>
+                <button id="Bath">Tomar un baño</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
